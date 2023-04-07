@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.pal.ui.homeScreens.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_singlePet"
+            app:destination="@id/singlePet" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.pal.ui.homeScreens.favorites.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_loginFragment2"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/move_up"
+            app:exitAnim="@anim/move_down"
+            app:popEnterAnim="@anim/move_up"
+            app:popExitAnim="@anim/move_down"
+            app:popUpTo="@id/home_nav"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_favoritesFragment_to_singlePet"
+            app:destination="@id/singlePet" />
+    </fragment>
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.example.pal.ui.homeScreens.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_SettingsFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/move_up"
+            app:exitAnim="@anim/move_down"
+            app:popEnterAnim="@anim/move_up"
+            app:popExitAnim="@anim/move_down"
+            app:popUpTo="@id/home_nav"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_SettingsFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_SettingsFragment_to_contactUsFragment"
+            app:destination="@id/contactUsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_SettingsFragment_to_termsFragment"
+            app:destination="@id/termsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.pal.ui.homeScreens.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_singlePetInfo"
+            app:destination="@id/singlePetInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.example.pal.ui.homeScreens.settings.change_password.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" >
+        <action
+            android:id="@+id/action_changePasswordFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/move_up"
+            app:exitAnim="@anim/move_down"
+            app:popEnterAnim="@anim/move_up"
+            app:popExitAnim="@anim/move_down"
+            app:popUpTo="@id/home_nav"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="com.example.pal.ui.homeScreens.settings.contact_us.ContactUsFragment"
+        android:label="fragment_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/termsFragment"
+        android:name="com.example.pal.ui.homeScreens.settings.terms.TermsFragment"
+        android:label="fragment_terms"
+        tools:layout="@layout/fragment_terms" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.pal.ui.signin.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_loginFragment_to_entryFragment"
+            app:destination="@id/entryFragment"
+            app:enterAnim="@anim/zoom_in"
+            app:exitAnim="@anim/zoom_out"
+            app:popEnterAnim="@anim/zoom_in"
+            app:popExitAnim="@anim/zoom_out" />
+        <action
+            android:id="@+id/action_loginFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/entryFragment"
+        android:name="com.example.pal.ui.entry.EntryFragment"
+        android:label="fragment_entry"
+        tools:layout="@layout/fragment_entry" >
+        <action
+            android:id="@+id/action_entryFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.pal.ui.signin.SignupFragment"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signupFragment_to_entryFragment"
+            app:destination="@id/entryFragment"
+            app:enterAnim="@anim/zoom_in"
+            app:exitAnim="@anim/zoom_out"
+            app:popEnterAnim="@anim/zoom_in"
+            app:popExitAnim="@anim/zoom_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/singlePet"
+        android:name="com.example.pal.ui.homeScreens.home.SinglePet"
+        android:label="fragment_single_pet"
+        tools:layout="@layout/fragment_single_pet" />
+    <fragment
+        android:id="@+id/singlePetInfo"
+        android:name="com.example.pal.ui.homeScreens.search.SinglePetInfo"
+        android:label="fragment_single_pet_info"
+        tools:layout="@layout/fragment_single_pet_info" />
+
+</navigation>

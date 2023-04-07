@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pal</string>
+    <string name="login">התחברות</string>
+    <string name="email">דוא"ל</string>
+    <string name="password">סיסמה</string>
+    <string name="don_t_have_an_account_sign_up">אין לך משתמש? הרשם כאן</string>
+    <string name="forgot_password">שכחתי סיסמה?</string>
+    <string name="or_sign_in_with">__________התחבר עם__________</string>
+    <string name="dog">כלב</string>
+    <string name="cat">חתול</string>
+    <string name="entry_slogan">מחפשים לאמץ חיית מחמד?</string>
+    <string name="sign_in">הרשם</string>
+    <string name="repeat_password">חזור על סיסמה</string>
+    <string name="name">שם</string>
+    <string name="phone_number">מספר פלאפון</string>
+    <string name="welcome_to_pal">ברוכים הבאים ל-Pal</string>
+    <string name="home">בית</string>
+    <string name="favorites">מועדפים</string>
+    <string name="search">חיפוש</string>
+    <string name="profile">פרופיל</string>
+    <string name="guest">אורח</string>
+    <string name="guest_describe">עליך להכנס כמשתמש רשום על מנת ליצור לעצמך מועדפים</string>
+    <string name="home_title">הכלבים שלנו לאימוץ</string>
+    <string name="home_description">חיות המחמד מחכות רק לכם!</string>
+    <string name="settings">הגדרות</string>
+    <string name="sing_out">צא</string>
+    <string name="loading">בטעינה</string>
+    <string name="welcome_dear">ברוך הבא</string>
+    <string name="general">כללי</string>
+    <string name="test">מבחן</string>
+    <string name="years_old">שנים</string>
+    <string name="slogen">תאמצו, אל תקנו!</string>
+    <string name="your_favorite_friend">החיות המועדפות שלכם</string>
+    <string name="sign_up">הרשם</string>
+    <string name="welcome">ברוך הבא</string>
+    <string name="change_password">שנה סיסמא</string>
+    <string name="contact_us">צרו קשר</string>
+    <string name="terms">אודות</string>
+    <string name="weight">משקל:</string>
+    <string name="life_span">תוחלת-חיים:</string>
+    <string name="breed">גזע:</string>
+    <string name="search_breed">חפש גזע</string>
+    <string name="our_angels">המלאכים שלנו</string>
+    <string name="terms_and_conditions_for_pal">תנאי שימוש והגבלות עבור Pal</string>
+    <string name="Terms_and_Conditions">תנאי השימוש וההגבלות</string>
+    <string name="Terms_last_updated">עודכן לאחרונה בתאריך: 05.02.23</string>
+    <string name="Read_Terms_Carfully_warning">בבקשה תקראו את תנאי השימוש וההגבלות בצורה זהירה לפני השימוש בשירותים שלנו.</string>
+    <string name="Interpretation">פרשנות</string>
+    <string name="Definitions">הגדרות</string>
+    <string name="For_the_purposes_of_these_Terms_and_Conditions">למטרות תקנון זה:</string>
+    <string name="Terms_Application_Means_Definitions">אפליקציה פירושה התוכנה שסופקה על ידי החברה שהורדת על ידך בכל מכשיר אלקטרוני, בשם Pal</string>
+    <string name="Terms_Application_Store_Means_Definitions">Application Store פירושו שירות ההפצה הדיגיטלי המופעל ופותח על ידי Apple Inc. (Apple App Store) או Google Inc. (Google Play Store) שבו האפליקציה הורדה.</string>
+    <string name="Terms_Affiliate_Means_Definitions_part_one_of_three">\"שותף פירושו ישות השולטת, נשלטת על ידי או נמצאת בשליטה משותפת עם צד, שם \"</string>
+    <string name="Terms_Affiliate_Means_Definitions_part_two_of_three">שולטת</string>
+    <string name="Terms_Affiliate_Means_Definitions_part_three_of_three">\" פירושו בעלות של 50% או יותר מהמניות, מניות או ניירות ערך אחרים הזכאים להצביע לבחירת דירקטורים או רשות ניהולית אחרת.\"</string>
+    <string name="Terms_Country_Means_Definitions">מדינה מתייחסת ל:ישראל</string>
+    <string name="Terms_Company_Means_Definitions_part_one_of_Seven">\"חברה (המכונה או \"</string>
+    <string name="Terms_Company_Means_Definitions_part_two_of_Seven">החברה</string>
+    <string name="Terms_Company_Means_Definitions_part_three_of_Seven">אנחנו</string>
+    <string name="Terms_Company_Means_Definitions_part_four_of_Seven">אנו</string>
+    <string name="Terms_Company_Means_Definitions_part_five_of_Seven">או</string>
+    <string name="Terms_Company_Means_Definitions_part_six_of_Seven">לנו</string>
+    <string name="Terms_Company_Means_Definitions_part_seven_of_Seven">בהסכם זה) מתייחס ל-Pal.</string>
+    <string name="Terms_Device_Means_Definitions">מכשיר פירושו כל מכשיר שיכול לגשת לשירות כגון מחשב, טלפון סלולרי או טאבלט דיגיטלי.</string>
+    <string name="Terms_Service_Means_Definitions">השירות מתייחס לאפליקציה.</string>
+    <string name="Terms_Terms_And_Conditions_Means_Definitions_part_one_of_Three">\"תנאים והגבלות (המכונה גם \"</string>
+    <string name="Terms_Terms_And_Conditions_Means_Definitions_part_two_of_Three">תנאים</string>
+    <string name="Terms_Terms_And_Conditions_Means_Definitions_part_three_of_Three">) פירושם תנאים והגבלות אלה המהווים את כל ההסכם בינך לבין החברה לגבי השימוש בשירות. הסכם תנאים והגבלות זה נוצר בעזרת מחולל התנאים וההגבלות של עדכון תנאים.</string>
+    <string name="Terms_Third_Party_Means_Definitions">שירות מדיה חברתית של צד שלישי פירושו כל שירות או תוכן (כולל נתונים, מידע, מוצרים או שירותים) המסופקים על ידי צד שלישי שעשוי להיות מוצג, כלול או זמין על ידי השירות.</string>
+    <string name="Terms_You_Means_Definitions">אתה מתכוון לאדם הניגש או משתמש בשירות, או החברה, או ישות משפטית אחרת מטעמה אדם כזה ניגש או משתמש בשירות, לפי העניין.</string>
+    <string name="Acknowledgment">הכרה</string>
+    <string name="Terms_Acknowledgment_Phrase_one_outOf_Five">אלו הם התנאים וההגבלות המסדירים את השימוש בשירות זה וההסכם הפועל בינך לבין החברה. תנאים והגבלות אלה קובעים את הזכויות והחובות של כל המשתמשים בנוגע לשימוש בשירות.</string>
+    <string name="Terms_Acknowledgment_Phrase_two_outOf_Five">הגישה שלך לשירות והשימוש בו מותנים בהסכמתך לתנאים וההגבלות האלה ולעמידה בהם. תנאים והגבלות אלה חלים על כל המבקרים, המשתמשים ואחרים שניגשים לשירות או משתמשים בו.</string>
+    <string name="Terms_Acknowledgment_Phrase_three_outOf_Five">על ידי גישה או שימוש בשירות אתה מסכים להיות כפוף לתנאים והגבלות אלה. אם אינך מסכים עם חלק כלשהו של תנאים והגבלות אלה, אינך רשאי לגשת לשירות.</string>
+    <string name="Terms_Acknowledgment_Phrase_four_outOf_Five">אתה מצהיר שאתה מעל גיל 18. החברה אינה מתירה למי מתחת לגיל 18 להשתמש בשירות.</string>
+    <string name="Terms_Acknowledgment_Phrase_five_outOf_Five">גישתך לשירות והשימוש בו מותנים גם בהסכמתך ועמידה במדיניות הפרטיות של החברה. מדיניות הפרטיות שלנו מתארת את המדיניות והנהלים שלנו לגבי איסוף, שימוש וחשיפת המידע האישי שלך כאשר אתה משתמש באפליקציה או באתר ומספרת לך על זכויות הפרטיות שלך וכיצד החוק מגן עליך. אנא קרא בעיון את מדיניות הפרטיות שלנו לפני השימוש בשירות שלנו.</string>
+    <string name="Links_to_Other_Websites">קישורים לאתרים אחרים</string>
+    <string name="Terms_LinksToOtherWebsites_Phrase_one_outOf_Three">השירות שלנו עשוי להכיל קישורים לאתרי אינטרנט או שירותים של צד שלישי שאינם בבעלות החברה או בשליטתה.</string>
+    <string name="Terms_LinksToOtherWebsites_Phrase_two_outOf_Three">לחברה אין שליטה על התוכן, מדיניות הפרטיות או הנוהלים של אתרים או שירותים של צד שלישי, ואינה נושאת באחריות. בנוסף, אתה מאשר ומסכים שהחברה לא תהיה אחראית או אחראית, במישרין או בעקיפין, לכל נזק או הפסד שנגרמו או נטען שנגרמו על ידי או בקשר עם השימוש או הסתמכות על כל תוכן, סחורה או שירותים כאלה הזמינים ב או דרך כל אתרי אינטרנט או שירותים כאלה.</string>
+    <string name="Terms_LinksToOtherWebsites_Phrase_three_outOf_Three">אנו ממליצים לך בחום לקרוא את התנאים וההגבלות ואת מדיניות הפרטיות של כל אתרי אינטרנט או שירותים של צד שלישי שבהם אתה מבקר.</string>
+    <string name="Termination">סיום</string>
+    <string name="Terms_Termination_Phrase_one_outOf_Two">אנו עשויים להפסיק או להשעות את הגישה שלך באופן מיידי, ללא הודעה מוקדמת או חבות, מכל סיבה שהיא, לרבות ללא הגבלה אם אתה מפר את התנאים וההגבלות הללו.</string>
+    <string name="Terms_Termination_Phrase_two_outOf_Two">עם סיום, זכותך להשתמש בשירות תיפסק לאלתר.</string>
+    <string name="Limitation_of_Liability">הגבלת אחריות</string>
+    <string name="Terms_LimitationOfLiability_Phrase_one_outOf_Three">על אף הנזקים שעלולים להיגרם לך, החבות המלאה של החברה וכל אחד מהספקים שלה לפי כל הוראה בתנאים אלה והסעד הבלעדי שלך עבור כל האמור לעיל תהיה מוגבלת לסכום ששולם על ידך בפועל באמצעות השירות או 100 דולר ארה"ב. אם לא רכשת שום דבר דרך השירות.</string>
+    <string name="Terms_LimitationOfLiability_Phrase_two_outOf_Three">מידה המקסימלית המותרת על פי החוק החל, בשום מקרה החברה או הספקים שלה לא יהיו אחראים לכל נזק מיוחד, מקרי, עקיף או תוצאתי כל שהוא (לרבות, אך לא רק, נזקים בגין אובדן רווחים, אובדן נתונים או מידע אחר, להפרעה עסקית, לפציעה אישית, אובדן פרטיות הנובע או בכל דרך הקשורה לשימוש או חוסר יכולת להשתמש בשירות, תוכנת צד שלישי ו/או חומרה של צד שלישי המשמשת עם השירות, או אחרת בקשר לכל הוראה בתקנון זה), גם אם החברה או ספק כלשהו קיבלו הודעה על אפשרות של נזקים כאמור וגם אם הסעד לא יצליח בתכליתו המהותית.</string>
+    <string name="Terms_LimitationOfLiability_Phrase_three_outOf_Three">מדינות מסוימות אינן מתירות החרגה של אחריות משתמעת או הגבלת אחריות לנזקים מקריים או תוצאתיים, מה שאומר שחלק מהמגבלות לעיל עשויות שלא לחול. במדינות אלו, אחריותו של כל צד תהיה מוגבלת במידה המרבית המותרת בחוק.</string>
+    <string name="AS_IS">כפי שהוא</string>
+    <string name="and">ו</string>
+    <string name="AS_AVAILABLE">כפי זמין</string>
+    <string name="Disclaimer">כתב ויתור</string>
+    <string name="Terms_Disclaimer_phrase_one_OutOf_Four">\"השירות ניתן לך \"</string>
+    <string name="Terms_Disclaimer_phrase_two_OutOf_Four">ועם כל התקלות והפגמים ללא אחריות מכל סוג שהוא. במידה המקסימלית המותרת על פי החוק החל, החברה, מטעמה ומטעם השותפים שלה ומעניקי הרישיונות שלה ושלהם, מתנערת במפורש מכל אחריות, בין אם מפורשת, משתמעת, סטטוטורית או אחרת, ביחס ל- שירות, לרבות כל האחריות המשתמעת של סחירות, התאמה למטרה מסוימת, בעלות ואי-הפרה, ואחריות שעשויות לנבוע כתוצאה מהעסקה, מהלך הביצועים, השימוש או המסחר. מבלי להגביל את האמור לעיל, החברה אינה מספקת אחריות או התחייבות, ואינה מציגה כל סוג שהוא שהשירות יענה על דרישותיך, ישיג תוצאות כלשהן, יהיה תואם או יעבוד עם כל תוכנה, יישומים, מערכות או שירותים אחרים, יפעלו. ללא הפרעה, לעמוד בכל תקני ביצועים או מהימנות או להיות נקי מטעויות או שניתן או יתוקן שגיאות או פגמים כלשהם.</string>
+    <string name="Terms_Disclaimer_phrase_three_OutOf_Four">מבלי להגביל את האמור לעיל, לא החברה ולא מי מהספקים של החברה מציגים כל מצג או אחריות מכל סוג שהוא, מפורש או משתמע: (i) לגבי הפעולה או הזמינות של השירות, או המידע, התוכן, וכן חומרים או מוצרים הכלולים בהם; (ii) שהשירות יהיה ללא הפרעות או ללא שגיאות; (iii) לגבי הדיוק, המהימנות או המטבע של כל מידע או תוכן המסופקים באמצעות השירות; או (iv) שהשירות, השרתים שלו, התוכן או הדואר האלקטרוני שנשלחו מהחברה או מטעמה נקיים מווירוסים, סקריפטים, סוסים טרויאניים, תולעים, תוכנות זדוניות, פצצות זמן או רכיבים מזיקים אחרים.</string>
+    <string name="Terms_Disclaimer_phrase_four_OutOf_Four">תחומי שיפוט מסוימים אינם מאפשרים החרגה של סוגים מסוימים של אחריות או הגבלות על זכויות סטטוטוריות החלות של צרכן, ולכן ייתכן שחלק מההחרגות וההגבלות שלעיל לא יחולו עליך. אבל במקרה כזה ההחרגות וההגבלות המפורטות בסעיף זה יחולו במידה המרבית הניתנת לאכיפה על פי החוק החל.</string>
+    <string name="Governing_Law">חוק מסדיר</string>
+    <string name="Terms_GoverningLaw_Description">חוקי המדינה, למעט כללי התנגשות החוק שלה, ינהלו את התנאים והשימוש שלך בשירות. השימוש שלך באפליקציה עשוי להיות כפוף גם לחוקים מקומיים, ממלכתיים, לאומיים או בינלאומיים אחרים.</string>
+    <string name="Disputes_Resolution">יישוב מחלוקות</string>
+    <string name="Terms_DisputeResolution">אם יש לך דאגה או מחלוקת לגבי השירות, אתה מסכים לנסות תחילה לפתור את המחלוקת באופן לא פורמלי על ידי פנייה לחברה.</string>
+    <string name="For_European_Union_Users">עבור משתמשי האיחוד האירופי (EU).</string>
+    <string name="Terms_For_European_Union_Users">אם אתה צרכן באיחוד האירופי, תוכל ליהנות מכל הוראות מחייבות של החוק של המדינה שבה אתה מתגורר.</string>
+    <string name="United_States_Legal_Compliance">ציות לחוק של ארצות הברית</string>
+    <string name="Terms_United_States_Legal_Compliance_one_OutOf_Three">\"אתה מצהיר ומתחייב כי (א) אינך נמצא במדינה הכפופה לאמברגו ממשלת ארצות הברית, או שהוגדרה על ידי ממשלת ארצות הברית כמדינה \"</string>
+    <string name="Terms_United_States_Legal_Compliance_two_OutOf_Three">מדינה</string>
+    <string name="Terms_United_States_Legal_Compliance_three_OutOf_Three">\" תומכת בטרור, ו-(ii) אינך רשום בשום רשימה של ממשלת ארצות הברית של צדדים אסורים או מוגבלים.\"</string>
+    <string name="Severability">בר הפרדה</string>
+    <string name="Terms_Severability">אם הוראה כלשהי בתנאים אלה תיחשב בלתי אכיפה או בלתי חוקית, הוראה כזו תשונה ותפורש כדי להשיג את המטרות של הוראה כזו במידה המרבית האפשרית על פי החוק החל ושאר ההוראות ימשיכו בתוקף ובתוקף.</string>
+    <string name="Waiver">ויתור</string>
+    <string name="Terms_Waiver">למעט כפי שצוין כאן, אי מימוש זכות או דרישה לביצוע התחייבות לפי תנאים אלה לא ישפיע על יכולתו של צד לממש זכות כזו או לדרוש ביצוע כזה בכל עת לאחר מכן, וגם הוויתור על הפרה לא יהווה ויתור על כל הפרה לאחר מכן.</string>
+    <string name="Translatiom_Interpretation">פרשנות תרגום</string>
+    <string name="Terms_Translatiom_Interpretation">ייתכן שהתנאים וההגבלות הללו תורגמו אם העמדנו אותם לרשותך בשירות שלנו. אתה מסכים שהטקסט המקורי באנגלית יגבר במקרה של מחלוקת.</string>
+    <string name="Generated_using_TermsFeed_Privacy_Policy_Generator">נוצר באמצעות מחולל מדיניות הפרטיות של TermsFeed</string>
+    <string name="Changes_to_These_Terms_and_Conditions">שינויים בתנאים וההגבלות הללו</string>
+    <string name="Terms_Changes_to_These_Terms_and_Conditions_one_OutOf_Two">אנו שומרים לעצמנו את הזכות, לפי שיקול דעתנו הבלעדי, לשנות או להחליף תנאים אלה בכל עת. אם תיקון הוא מהותי, אנו נעשה מאמצים סבירים לספק הודעה של 30 יום לפחות לפני כניסת תנאים חדשים לתוקף. מהו שינוי מהותי ייקבע לפי שיקול דעתנו הבלעדי.</string>
+    <string name="Terms_Changes_to_These_Terms_and_Conditions_two_OutOf_Two">על ידי המשך גישה או שימוש בשירות שלנו לאחר שהתיקונים הללו נכנסים לתוקף, אתה מסכים להיות כפוף לתנאים המתוקנים. אם אינך מסכים לתנאים החדשים, כולם או חלקם, אנא הפסק להשתמש באתר ובשירות.</string>
+    <string name="Contact_Us">צור קשר</string>
+    <string name="Terms_Contact_Us_one_OutOf_Two">אם יש לך שאלות כלשהן לגבי תנאים והגבלות אלה, תוכל לפנות אלינו:</string>
+    <string name="Terms_Contact_Us_two_OutOf_Two">במייל: palpa2245@gmail.com</string>
+
+    <string-array name="parameters">
+        <item>נשירה</item>
+        <item>חברתי עם חיות</item>
+        <item>חברותי עם ילדים</item>
+        <item>גודל</item>
+        <item>מרייר</item>
+        <item>עצמאי</item>
+        <item>נבחן</item>
+        <item>מותאם לדירה</item>
+        <item>קל לאילוף</item>
+        <item>חכם</item>
+        <item>שובבנות</item>
+        <item>טיפול</item>
+        <item>יללות</item>
+        <item>בריאות</item>
+    </string-array>
+
+    <string-array name="settings">
+        <item>צרו קשר</item>
+        <item>אודות</item>
+        <item>החלף סיסמא</item>
+        <item>מחק משתמש</item>
+        <item>צא</item>
+        <item>הכנס</item>
+    </string-array>
+    <string name="description">תיאור</string>
+    <string name="sex">מין</string>
+    <string name="age">גיל</string>
+    <string name="hello_blank_fragment">.</string>
+    <string name="more_info">מידע נוסף..</string>
+    <string name="add_to_favorites">הוסף למועדפים</string>
+    <string name="info">מידע</string>
+    <string name="submit">אשר</string>
+    <string name="your_message">ההודעה שלך</string>
+    <string name="your_email">הדו\"אל שלך</string>
+    <string name="your_name">השם שלך</string>
+    <string name="or_with">או בעזרת</string>
+    <string name="please_enter_your_email_to_reset_you_password">אנא הכנס את הדו\"אל האלקטרוני שלך על מנת לשחזר את הסיסמא</string>
+
+</resources>

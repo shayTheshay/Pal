@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.homeScreens.settings.contact_us.ContactUsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/header"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/coffee"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/backIcon"
+                android:layout_marginStart="5dp"
+                android:contentDescription="@string/backicon"
+                android:src="@drawable/backicon"
+                android:background="@color/coffee"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/contact_us"
+                android:textColor="@color/white"
+                android:layout_marginEnd="31dp"
+                android:textSize="28sp"
+                android:textStyle="normal"
+                android:textColorHint="@color/white"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/your_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/your_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/message_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/your_message"
+            android:inputType="textMultiLine" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cornerRadius="20dp"
+            android:id="@+id/submit_btn"
+            android:text="@string/submit"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/or_with"
+            android:textSize="28sp"
+            android:textColor="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/instagram_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/instegram" />
+
+            <ImageButton
+                android:id="@+id/ticktok_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/tiktok"
+                android:layout_marginStart="16dp" />
+
+            <ImageButton
+                android:id="@+id/snapchat_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/snapchat"
+                android:layout_marginStart="16dp" />
+
+            <ImageButton
+                android:id="@+id/facebook_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/facebook"
+                android:layout_marginStart="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

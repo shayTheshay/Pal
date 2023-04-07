@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="manatee">#8c8c9c</color>
+    <color name="shark">#2A2F33</color>
+    <color name="lime">#8EBA43</color>
+    <color name="olive">#4B7447</color>
+    <color name="yellow">#F9DC24</color>
+    <color name="orange">#C08A24</color>
+    <color name="ceramic">#CDCDC0</color>
+    <color name="latte">#DDBC95</color>
+    <color name="coffee">#a87954</color>
+    <color name="light_coffee">#CC9D79</color>
+    <color name="brown">#B86D1F</color>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.homeScreens.settings.terms.TermsFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/header"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/coffee"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/backIcon"
+                android:contentDescription="@string/backicon"
+                android:src="@drawable/backicon"
+                android:background="@color/coffee"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/terms_and_conditions_for_pal"
+                android:textColor="@color/white"
+                android:layout_marginEnd="31dp"
+                android:textSize="22sp"
+                android:textStyle="normal"
+                android:textColorHint="@color/white"/>
+
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/terms_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

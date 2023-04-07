@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.entry.EntryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/header"
+        android:background="@color/coffee"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backIcon"
+            android:layout_marginStart="5dp"
+            android:contentDescription="@string/backicon"
+            android:src="@drawable/backicon"
+            android:background="@color/coffee"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:layout_marginEnd="31dp"
+            android:textSize="28sp"
+            android:textStyle="normal"
+            android:textColorHint="@color/white"/>
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/dog_cat"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/entry_slogan"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/welcome_to_pal"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:id="@+id/dog_section"
+        android:layout_height="wrap_content"
+        android:background="@color/coffee"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/coffee">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/dog_wait_anim"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/white_dog"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/dog"
+                android:textColor="@color/white"
+                android:padding="20dp"
+                android:layout_marginStart="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:id="@+id/cat_section"
+        android:layout_height="wrap_content"
+        android:background="@color/coffee"
+        android:layout_marginTop="60dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/coffee">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/cat_wait_anim"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/cat_wait" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:text="@string/cat"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:padding="20dp"
+                android:layout_marginStart="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
